@@ -1,0 +1,69 @@
+# --- Datos y secretos (pedido explícito) ---
+*.json
+*.csv
+.env
+.env.*
+!.env.example
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+wheels/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Entornos virtuales ---
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Audio / modelos / salidas pesadas ---
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+*.aac
+*.aiff
+*.zip
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.th
+separated/
+stems/
+output/
+outputs/
+models/
+pretrained_models/
+
+# --- Sistema / editores ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*:Zone.Identifier
+.vscode/
+.idea/
+*.swp
+*~
+
+# --- Logs ---
+*.log
+logs/
